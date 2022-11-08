@@ -1,0 +1,22 @@
+{
+    "env": {
+        "production": {
+            "plugins": [
+                "@babel/proposal-class-properties",
+                "@babel/transform-react-jsx-source"
+            ],
+            "presets": [
+                "@babel/react"
+            ]
+        },
+        "development": {
+            "plugins": [
+                "@babel/proposal-class-properties",
+                "@babel/transform-react-jsx-source"
+            ],
+            "presets": [
+                "@babel/react"
+            ]
+        }
+    }
+}
